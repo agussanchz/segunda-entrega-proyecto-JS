@@ -1,0 +1,60 @@
+/*Estilo header*/
+header { 
+	background:#000000; 
+}
+
+
+/*Estilo main seccion-iphone13*/
+.seccion-iphone13 {
+	background-color: #000000;
+
+	.titulo-header {	
+		padding-top:60px;
+		display: flex;
+		justify-content: center;
+		h1 {
+			font-family: 'Oswald', sans-serif;
+			color:white;
+		}
+	}
+
+	.parrafo-header {
+		display: flex;
+		justify-content: center;
+		p {
+			font-family: 'Poppins', sans-serif;
+			color: white;
+			text-align: center;
+		}
+	}
+
+	.info-header {
+		display: flex;
+		justify-content: center;
+		a {
+			color: #3265EE;
+			
+			i {
+				color:#3265EE;
+				padding-left: 5px;
+			}
+		}
+	}
+
+	.imagen-header img {
+		width: 100%;
+		height: auto;
+		animation-name: opacar;
+		animation-duration: 6s;
+	}
+
+	@keyframes opacar {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+}

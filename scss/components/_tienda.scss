@@ -1,0 +1,51 @@
+/*Estilo titulo de entrada*/
+body{
+	background-color:#000000;
+}
+
+.cartel-store {
+	background-color: #000000;
+	.tienda {
+		height: 500px;
+		align-items: center;
+		display: flex;
+		justify-content: center;	
+		.titulo-tienda {
+			width: 100;
+			button {
+				margin-left: 100px;
+			}
+			h2 {
+				font-size: 90px;
+				font-family: 'Fjalla One', sans-serif;
+				color: white;
+				animation-name: opacar;
+				animation-duration: 1s;
+			}
+			@keyframes opacar {
+				0% {
+					opacity:0;
+				}
+
+				100% {
+					opacity:1;
+				}
+			}
+		} 
+	}
+} 
+
+.section-productos{
+
+	.allProductos{
+		margin-top: -150px;
+		display: flex;
+		flex-direction: row;
+		color: black;
+	}
+
+}
+
+main {
+	color: #000000;
+}

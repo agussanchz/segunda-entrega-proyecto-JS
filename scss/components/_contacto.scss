@@ -1,0 +1,74 @@
+/*Estilo main Contacto*/
+.contacto {
+	background-image: url("../utils/imagenes/ImgContacto.jpg");
+	background-size: cover;
+	.titulo-contacto {
+		display: flex;
+		justify-content: center;
+		h2 {
+			color:#fff;
+			text-align: center;
+		}
+	}
+
+	.subtitulo-contacto {
+		display: flex;
+		justify-content: center;
+		h2 {
+			color:#fff;
+			text-align: center;
+		}
+	}
+
+	.parrafo-contacto {
+		display: flex;
+		justify-content: center;
+		p {
+			color:#fff;
+			text-align: center;
+		}
+	}
+/*Estilo formuilario contacto*/
+	.formulario {
+		margin: auto;
+		background: rgba(0,0,0,0.4);
+		padding: 10px 20px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		animation-name: opacar;
+		animation-duration: 7s;
+		@keyframes opacar {
+			0% {
+				opacity:0;
+			}
+
+			100% {
+				opacity:1;
+			}
+		}
+
+		h2 {
+			color: #fff;
+			text-align: center;
+			margin:0;
+			font-size: 30px;
+			margin-bottom: 20px;
+		}
+
+		input, textarea {
+			width: 100%;
+			margin-bottom: 20px;
+			padding: 7px;
+			box-sizing: border-box;
+			font-size: 17px;
+			border: none;
+		}
+
+		textarea {
+			min-height: 200px;
+			max-height: 200px;
+			max-width: 100%;
+		}
+	}
+
+}

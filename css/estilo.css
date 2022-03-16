@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
+body {
+  position: relative;
+  background: #0000;
+  color: #ffe8d6; }
+
+.menu {
+  position: absolute;
+  top: 80px;
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-color: #0000;
+  opacity: 0.8; }
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  background-color: #000000;
+  padding-right: 2rem; }
+
+.boton-menu {
+  font-size: 1.5rem;
+  padding: 0.1rem 0.3rem;
+  background-color: #0000;
+  border: 2px solid #ffe8d6;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 600; }
+
+.paginas {
+  position: absolute;
+  top: 80px;
+  left: -100%;
+  width: 200px;
+  height: calc(100vh - 80px);
+  border-radius: 20px;
+  background-color: white;
+  transition: all 0.4s; }
+
+ul li {
+  list-style: none; }
+
+.paginas ul li a {
+  padding: 0.3rem;
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  font-weight: 600; }
+
+.hidden {
+  display: none; }
+
+.appear {
+  left: 0; }
+
+/*Estilo header*/
+header {
+  background: #000000; }
+
+/*Estilo main seccion-iphone13*/
+.seccion-iphone13 {
+  background-color: #000000; }
+  .seccion-iphone13 .titulo-header {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center; }
+    .seccion-iphone13 .titulo-header h1 {
+      font-family: 'Oswald', sans-serif;
+      color: white; }
+  .seccion-iphone13 .parrafo-header {
+    display: flex;
+    justify-content: center; }
+    .seccion-iphone13 .parrafo-header p {
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      text-align: center; }
+  .seccion-iphone13 .info-header {
+    display: flex;
+    justify-content: center; }
+    .seccion-iphone13 .info-header a {
+      color: #3265EE; }
+      .seccion-iphone13 .info-header a i {
+        color: #3265EE;
+        padding-left: 5px; }
+  .seccion-iphone13 .imagen-header img {
+    width: 100%;
+    height: auto;
+    animation-name: opacar;
+    animation-duration: 6s; }
+
+@keyframes opacar {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*Estilo titulo de entrada*/
+body {
+  background-color: #000000; }
+
+.cartel-store {
+  background-color: #000000; }
+  .cartel-store .tienda {
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+    .cartel-store .tienda .titulo-tienda {
+      width: 100; }
+      .cartel-store .tienda .titulo-tienda button {
+        margin-left: 100px; }
+      .cartel-store .tienda .titulo-tienda h2 {
+        font-size: 90px;
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+        animation-name: opacar;
+        animation-duration: 1s; }
+
+@keyframes opacar {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.section-productos .allProductos {
+  margin-top: -150px;
+  display: flex;
+  flex-direction: row;
+  color: black; }
+
+main {
+  color: #000000; }
+
+/*Estilo main Contacto*/
+.contacto {
+  background-image: url("../utils/imagenes/ImgContacto.jpg");
+  background-size: cover;
+  /*Estilo formuilario contacto*/ }
+  .contacto .titulo-contacto {
+    display: flex;
+    justify-content: center; }
+    .contacto .titulo-contacto h2 {
+      color: #fff;
+      text-align: center; }
+  .contacto .subtitulo-contacto {
+    display: flex;
+    justify-content: center; }
+    .contacto .subtitulo-contacto h2 {
+      color: #fff;
+      text-align: center; }
+  .contacto .parrafo-contacto {
+    display: flex;
+    justify-content: center; }
+    .contacto .parrafo-contacto p {
+      color: #fff;
+      text-align: center; }
+  .contacto .formulario {
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    animation-name: opacar;
+    animation-duration: 7s; }
+
+@keyframes opacar {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+    .contacto .formulario h2 {
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      font-size: 30px;
+      margin-bottom: 20px; }
+    .contacto .formulario input, .contacto .formulario textarea {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 17px;
+      border: none; }
+    .contacto .formulario textarea {
+      min-height: 200px;
+      max-height: 200px;
+      max-width: 100%; }
