@@ -40,27 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ]
 
-    // Funciones
 
-    /* const URLGET = "./producto.json"
-    //Agregamos un botón con jQuery
-    $("body").prepend('<button id="btn1">GET</button>');
-    //Escuchamos el evento click del botón agregado
-    $("#btn1").click(() => { 
-    $.get(URLGET, function (response, status) {
-        if(status === "success"){
-        baseDeDatos = response;
-        renderizarProductos()
-        }
-        else{
-            console.log('No encontramos el archivo de datos')
-        }
-    });
-    }) */
-
-    /**
-    * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
-    */
     function renderizarProductos() {
         listaDeProductos.forEach((info) => {
             // Estructura
