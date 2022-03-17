@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
             miNodoPrecio.classList.add('card-text');
             miNodoPrecio.textContent = `$US${info.precio}`;
             //Stock
-            const miNodoStock = document.createElement('img');
-            miNodoStock.classList.add('img-fluid');
-            miNodoStock.setAttribute("src", info["imagen"])
+            const miNodoImg = document.createElement('img');
+            miNodoImg.classList.add('img-fluid');
+            miNodoImg.setAttribute("src", info["imagen"])
             // Boton 
             const miNodoBoton = document.createElement('button');
             miNodoBoton.classList.add('btn', 'btn-primary');
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Insertamos
             miNodoCardBody.appendChild(miNodoTitle);
             miNodoCardBody.appendChild(miNodoPrecio);
-            miNodoCardBody.appendChild(miNodoStock);
+            miNodoCardBody.appendChild(miNodoImg);
             miNodoCardBody.appendChild(miNodoBoton);
             miNodo.appendChild(miNodoCardBody);
             DOMitems.appendChild(miNodo);
