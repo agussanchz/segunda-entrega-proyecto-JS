@@ -57,11 +57,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const miNodoPrecio = document.createElement('p');
             miNodoPrecio.classList.add('card-text');
             miNodoPrecio.textContent = `$US${info.precio}`;
-            //Stock
+            //Imagen
             const miNodoImg = document.createElement('img');
             miNodoImg.classList.add('img-fluid');
             miNodoImg.setAttribute("src", info["imagen"])
-            // Boton 
+            // Boton   
             const miNodoBoton = document.createElement('button');
             miNodoBoton.classList.add('btn', 'btn-primary');
             miNodoBoton.textContent = '+';
